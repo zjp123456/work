@@ -1,0 +1,10 @@
+/usr/local/python2.7/lib/python2.7/site-packages/setuptools-5.7-py2.7.egg/pkg_resources.py:1049: UserWarning: /home/jipengzeng/.python-eggs is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+[INFO]get_config_db:dolphin_stat, master=0
+cursor:dolphin_stat,0,None
+[INFO][init_db_info]self.db: dolphin_stat, self.master: 0
+
+Logging initialized using configuration in jar:file:/hadoop/hive-0.14.0/lib/hive-common-0.14.0.jar!/hive-log4j.properties
+Loading data to table tmp.zjp_desire_twitter_sales_rate partition (dt=2015-03-17)
+Partition tmp.zjp_desire_twitter_sales_rate{dt=2015-03-17} stats: [numFiles=1, numRows=0, totalSize=991, rawDataSize=0]
+OK
+Time taken: 3.235 seconds

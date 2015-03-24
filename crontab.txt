@@ -1,0 +1,11 @@
+#手q交易数据
+0 8 * * * cd /home/work/galaxy/trunk; . ./env.sh; python /home/jipengzeng/shouq/shouq_order_stat.py>~/logs/showq.log 2>~/showq.err
+20 2 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/desire/liucheng; python desire1.py 2>./desire1.err
+10 3 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/desire/liucheng; ./user_liucun1.sh >./user_liucun1.log 2>./user_liucun1.err
+11 3 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/desire/liucheng; ./user_huoyue.sh >./user_huoyue.log 2>./user_huoyue.err
+10 1 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/desire/liucheng; ./insert_tmp_tb1.sh >./visit_user.log 2>./visit_user.err
+10 3 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/desire/liucheng; ./visit_user.sh >./visit_user.log 2>./visit_user.err
+0 1 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/weixin/liucheng; ./load_page_name.sh >./load_page_name 2>./load_page.err
+0 2 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/weixin/liucheng; ./load_hierarchy_name.sh>./load_weixin.log 2>./load_weixin.err
+0 2 * * * cd /home/work/galaxy/trunk; . ./env.sh; cd ~/weixin/liucheng; ./load_cate_name.sh>./load_cate_name.log 2>./load_cate_name.err
+
